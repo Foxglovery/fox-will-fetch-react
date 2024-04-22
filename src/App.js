@@ -1,8 +1,12 @@
 import "./App.css";
-import { useState } from "react";
+import { ListWrapper } from "./components/ListWrapper";
 
 function App() {
-  return <div>this is text</div>;
+  return (
+    <div className="App">
+      <ListWrapper />
+    </div>
+  );
 }
 
 export default App;
