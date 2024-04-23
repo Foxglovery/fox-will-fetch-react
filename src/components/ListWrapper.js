@@ -8,7 +8,7 @@ export const ListWrapper = () => {
 
   const addList = (list) => {
     setLists([
-      ...list,
+      ...lists,
       { id: uuidv4(), task: list, completed: false, isEditing: false },
     ]);
     console.log("added to list:", lists);
